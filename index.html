@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="search-bar">
+            <i class='bx bx-location-plus'></i>
+            <input id="input" type="text" placeholder="Search">
+            <i id="search" class='bx bx-search'></i>
+        </div>
+
+        <div class="main">
+            <img src="">
+            <div class="temperature">
+                <p id="temperature"></p>
+                <p id="unit">°C</p>
+            </div>
+            <p id="location"></p>
+        </div>
+
+        <div class="misc">
+            <div class="rain">
+                <i class="fa-solid fa-water"></i>
+                <div class="value">
+                    <p id="precipitations"></p>
+                    <p>Precipitations</p>
+                </div>
+            </div>
+            <div class="wind">
+                <div class="value">
+                    <p id="wind-speed"></p>
+                    <p>Wind Speed</p>
+                </div>
+                <i class="fa-solid fa-wind"></i>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/c6b1c509d2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
