@@ -41,7 +41,7 @@ document.addEventListener("keyup", (event) => {
 async function fetchWeather(input){
     try{
 
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${input}&aqi=no`);
+    const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${input}&aqi=no`);
     
     if(!response.ok){
         INPUT.value = "";
